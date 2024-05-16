@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Theme.Ituneapp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ituneapp2"
+        tools:targetApi="31">
+
+        <!-- Register Activity - Set as the LAUNCHER activity -->
+        <activity
+            android:name=".Register"
+            android:exported="true"> <!-- Should be exported as it's the launcher -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Login Activity - Generally not exported unless specifically needed to be accessed from other apps -->
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+
+        <!-- Home Activity - Could be exported if intended to be accessed from other apps -->
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true" />
+
+        <activity android:name=".PlayerActivity"
+            android:exported="false" />
+
+        <activity android:name=".MyPlayListActivity"
+            android:exported="false" />
+
+
+        <!-- List Item Activity - Not typically an activity, if it's a model class, it shouldn't be listed here -->
+        <!-- If it is an activity, set exported properly -->
+        <!-- <activity android:name=".ListItem" android:exported="false" /> -->
+
+    </application>
+
+</manifest>

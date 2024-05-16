@@ -1,0 +1,9 @@
+<!-- styles.xml -->
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Ituneapp2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Ituneapp2" parent="Base.Theme.Ituneapp2" />
+</resources>

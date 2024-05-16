@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".HomeActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="24dp"
+            android:background="@drawable/lavender_border">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="40dp"
+                android:text="Home"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:textColor="@color/lavender"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="YouTube URL:"
+                android:textColor="@color/grey"/>
+
+            <EditText
+                android:id="@+id/etUrl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/lavender_border"
+                android:ems="10"
+                android:inputType="text"
+                android:padding="8dp"
+                android:textColor="@color/grey"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnPlay"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Play"
+                    android:textSize="18sp"
+                    android:layout_marginTop="10dp"
+                    app:cornerRadius="20dp"/>
+
+                <Button
+                    android:id="@+id/btnAddToPlaylist"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Add to Playlist"
+                    android:textSize="18sp"
+                    android:layout_marginTop="10dp"
+                    app:cornerRadius="20dp"/>
+
+                <Button
+                    android:id="@+id/btnMyPlayList"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="My Playlist"
+                    android:textSize="18sp"
+                    android:layout_marginTop="10dp"
+                    app:cornerRadius="20dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

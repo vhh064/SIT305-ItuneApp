@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "26131660628",
+    "firebase_url": "https://mobile-application-f50c9-default-rtdb.firebaseio.com",
+    "project_id": "mobile-application-f50c9",
+    "storage_bucket": "mobile-application-f50c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26131660628:android:2e9da9e0139d20b2bb92c1",
+        "android_client_info": {
+          "package_name": "com.example.a4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEIaSMX2utCjI5bwTd-AhRSyJfqhMnYx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26131660628:android:b1c69ee22adb162bbb92c1",
+        "android_client_info": {
+          "package_name": "com.example.ituneapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEIaSMX2utCjI5bwTd-AhRSyJfqhMnYx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26131660628:android:296e7c5b676a50ffbb92c1",
+        "android_client_info": {
+          "package_name": "com.example.ituneapp2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEIaSMX2utCjI5bwTd-AhRSyJfqhMnYx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
